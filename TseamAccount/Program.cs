@@ -8,8 +8,8 @@ namespace TseamAccount
     {
         static void Main(string[] args)
         {
-            var PeshosGamesList = GetPeshosGames();
-            PrintGames(PeshosGamesList);
+            var GamesList = GetPeshosGames();
+            PrintGames(GamesList);
         }
 
         private static void PrintGames(List<string> peshosGamesList)
